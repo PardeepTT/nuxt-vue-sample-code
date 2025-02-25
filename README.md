@@ -1,21 +1,35 @@
-Basic Ecommerce Sample
+# Basic Ecommerce Sample
 A minimal ecommerce template demonstrating core functionality with Nuxt.js and Vue.js. Perfect for learning basic ecommerce implementation patterns.
 
-Features
+# Features
 Product catalog display
 Shopping cart
 Basic product filtering
 
+# Project Structure
 
-Setup
+src/
+├── assets/
+├── components/
+│   ├── ProductCard.vue
+│   ├── ProductDetails.vue
+├── layouts/
+├── pages/
+│   ├── index.vue        # Homepage
+│   ├── products     # Product list
+│   └── about         # Shopping cart
+├── public/
+└── server/
 
-# Install dependencies
+# Setup
+
+### Install dependencies
 npm install
 
-# Start development server
+### Start development server
 npm run dev
 
-# Build for production
+### Build for production
 npm run build
 
 # Technology Stack
